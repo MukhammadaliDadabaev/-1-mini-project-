@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    box-sizing: border-box;
+    padding: 5rem;
+}
+
+.container {
+    width: 400px;
+    margin: 3rem auto;
+}
+.container__area form input {
+    width: 100%;
+    margin-top: 1.8rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 28px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #909090;
+}
+.btns {
+    margin-top: 2rem;
+}
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+.btnSubmit {
+    background-color: seagreen;
+}
+.btnSubmit:hover {
+    background-color: rgb(7, 77, 37);
+    cursor: pointer;
+}
+.btnReset {
+    background-color: rgb(250, 53, 53);
+}
+.btnReset:hover {
+    background-color: rgb(167, 0, 0);
+    cursor: pointer;
+}
+.container__text {
+    width: 100%;
+    margin-top: 2rem;
+    border: 1px solid #909090;
+    border-top: none;
+}
+.container__text p {
+    margin-left: 2rem;
+    font-size: 27px;
+    font-family: monospace;
+}
+.message {
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes anim {
+    50% {
+        transform: translateX(245px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
